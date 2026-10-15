@@ -1,0 +1,34 @@
+routing:
+  default_mode: "cost_optimized" # options: "cost_optimized", "balanced", "quality_first"
+  tiers:
+    tier_1:
+      name: "Simple"
+      description: "Reformatting, key-value extraction, direct lookup, simple context Q&A"
+      primary_model: "claude-3-haiku"
+      fallback_model: "llama-3-8b"
+      max_complexity_score: 0.35
+
+    tier_2:
+      name: "Moderate"
+      description: "Summarization, sentiment classification, structured analysis, SQL/data formatting"
+      primary_model: "gpt-4o-mini"
+      fallback_model: "claude-3-haiku"
+      max_complexity_score: 0.70
+
+    tier_3:
+      name: "Complex"
+      description: "Multi-step reasoning, code architecture, creative generation, nuanced legal/medical logic"
+      primary_model: "gpt-4o"
+      fallback_model: "claude-3-5-sonnet"
+      max_complexity_score: 1.00
+
+benchmark:
+  reference_model: "gpt-4o" # The model cost we compare against to calculate "Money Saved"
+
+verification:
+  enabled: true
+  sample_rate: 1.0 # 1.0 verifies 100% of non-tier-3 calls; adjust in production to e.g. 0.25
+  min_quality_threshold: 0.72 # Scores below this trigger routing failure
+  auto_escalate: true # If true and failure detected, re-run with Tier 3 model
+  judge_model: "gpt-4o" # Evaluator model for LLM-as-judge
+  feedback_buffer_size: 50 # Retrain classifier when 50 routing failure events accumulate

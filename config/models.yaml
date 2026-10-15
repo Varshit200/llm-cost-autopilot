@@ -1,0 +1,55 @@
+models:
+  gpt-4o:
+    provider: "openai"
+    model_id: "gpt-4o"
+    display_name: "GPT-4o (Omni)"
+    cost_per_input_token: 0.0000025    # $2.50 / 1M tokens
+    cost_per_output_token: 0.0000100   # $10.00 / 1M tokens
+    average_latency_ms: 750
+    quality_tier: "high"
+    max_tokens: 4096
+    description: "Flagship frontier model for complex multi-step reasoning and nuanced judgment."
+
+  claude-3-5-sonnet:
+    provider: "anthropic"
+    model_id: "claude-3-5-sonnet-20241022"
+    display_name: "Claude 3.5 Sonnet"
+    cost_per_input_token: 0.0000030    # $3.00 / 1M tokens
+    cost_per_output_token: 0.0000150   # $15.00 / 1M tokens
+    average_latency_ms: 820
+    quality_tier: "high"
+    max_tokens: 4096
+    description: "High-reasoning frontier model for architecture, logic, and deep evaluation."
+
+  gpt-4o-mini:
+    provider: "openai"
+    model_id: "gpt-4o-mini"
+    display_name: "GPT-4o Mini"
+    cost_per_input_token: 0.00000015   # $0.15 / 1M tokens
+    cost_per_output_token: 0.00000060  # $0.60 / 1M tokens
+    average_latency_ms: 320
+    quality_tier: "medium"
+    max_tokens: 4096
+    description: "Fast, cost-efficient model for summarization, classification, and moderate reasoning."
+
+  claude-3-haiku:
+    provider: "anthropic"
+    model_id: "claude-3-haiku-20240307"
+    display_name: "Claude 3 Haiku"
+    cost_per_input_token: 0.00000025   # $0.25 / 1M tokens
+    cost_per_output_token: 0.00000125  # $1.25 / 1M tokens
+    average_latency_ms: 280
+    quality_tier: "low"
+    max_tokens: 4096
+    description: "Ultra-fast lightweight cloud model for reformatting, extraction, and simple Q&A."
+
+  llama-3-8b:
+    provider: "ollama"
+    model_id: "llama3:8b"
+    display_name: "Llama 3 8B (Local)"
+    cost_per_input_token: 0.00000000   # $0.00 / local execution
+    cost_per_output_token: 0.00000000  # $0.00 / local execution
+    average_latency_ms: 450
+    quality_tier: "low"
+    max_tokens: 2048
+    description: "Local open-weights model running with 0 external API cost."

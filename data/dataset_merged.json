@@ -1,0 +1,4932 @@
+[
+  {
+    "id": 1,
+    "prompt": "Extract the email address from this text: Contact John Doe at john.doe@example.com for questions.",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 18.900000000000002,
+      "char_length": 97.0,
+      "has_context": 0.0,
+      "simple_verb_count": 2.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 2,
+    "prompt": "Convert the following list into a comma-separated single line: Apple, Banana, Orange, Peach.",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 17.55,
+      "char_length": 92.0,
+      "has_context": 0.0,
+      "simple_verb_count": 1.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 3,
+    "prompt": "Format this phone number into standard international format: 1234567890.",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 12.15,
+      "char_length": 72.0,
+      "has_context": 0.0,
+      "simple_verb_count": 3.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 4,
+    "prompt": "Extract the total amount and invoice date from this string: Invoice #99182 Dated 2026-10-12 Total Due: $1,450.00.",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 22.950000000000003,
+      "char_length": 113.0,
+      "has_context": 0.0,
+      "simple_verb_count": 2.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 5,
+    "prompt": "Convert this JSON to lowercase keys: {'FirstName': 'Alex', 'LastName': 'Smith'}.",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 13.5,
+      "char_length": 80.0,
+      "has_context": 0.0,
+      "simple_verb_count": 2.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 1.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 6,
+    "prompt": "What is the capital city mentioned in this sentence: Paris is the capital of France and Rome is the capital of Italy?",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 29.700000000000003,
+      "char_length": 117.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 1.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 7,
+    "prompt": "Extract all numbers from this passage: The car drove 45 miles in 50 minutes and burned 2 gallons of fuel.",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 27.0,
+      "char_length": 105.0,
+      "has_context": 1.0,
+      "simple_verb_count": 1.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 8,
+    "prompt": "Reformat this date from MM/DD/YYYY to YYYY-MM-DD: 11/24/2025.",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 10.8,
+      "char_length": 61.0,
+      "has_context": 0.0,
+      "simple_verb_count": 2.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 9,
+    "prompt": "Extract the order status from: Order ID 8831 status: DELIVERED to recipient.",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 16.200000000000003,
+      "char_length": 76.0,
+      "has_context": 0.0,
+      "simple_verb_count": 1.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 10,
+    "prompt": "Turn the following key-value pairs into a markdown table: Name: Alice, Age: 30 | Name: Bob, Age: 25.",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 24.3,
+      "char_length": 100.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 1.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 1.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 11,
+    "prompt": "Strip all leading and trailing punctuation from the following sentence: ...Hello world!???",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 16.200000000000003,
+      "char_length": 90.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 3.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 12,
+    "prompt": "Find the zip code in this address: 742 Evergreen Terrace, Springfield, OR 97477.",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 17.55,
+      "char_length": 80.0,
+      "has_context": 0.0,
+      "simple_verb_count": 1.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 13,
+    "prompt": "Extract the flight departure time from: Flight AA102 departs JFK at 08:30 AM EST.",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 18.900000000000002,
+      "char_length": 81.0,
+      "has_context": 0.0,
+      "simple_verb_count": 1.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 14,
+    "prompt": "Given context: The meeting is scheduled for room 4B. Question: Which room is the meeting in?",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 21.6,
+      "char_length": 92.0,
+      "has_context": 1.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 1.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 15,
+    "prompt": "Reformat this raw text into valid JSON with keys name and price: Widget A is $19.99.",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 21.6,
+      "char_length": 84.0,
+      "has_context": 0.0,
+      "simple_verb_count": 1.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 1.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 16,
+    "prompt": "Extract the tracking number from this receipt: FedEx tracking label 99281726154.",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 14.850000000000001,
+      "char_length": 80.0,
+      "has_context": 0.0,
+      "simple_verb_count": 1.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 17,
+    "prompt": "Convert this CSV snippet to JSON array: id,name\\n1,Alpha\\n2,Beta.",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 10.8,
+      "char_length": 65.0,
+      "has_context": 0.0,
+      "simple_verb_count": 1.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 1.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 18,
+    "prompt": "Capitalize the first letter of every word in: the quick brown fox jumps over the lazy dog.",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 22.950000000000003,
+      "char_length": 90.0,
+      "has_context": 0.0,
+      "simple_verb_count": 1.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 19,
+    "prompt": "Extract the IP address from the log entry: 192.168.1.100 - - [10/Oct/2026] GET /index.html 200.",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 20.25,
+      "char_length": 95.0,
+      "has_context": 0.0,
+      "simple_verb_count": 1.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 20,
+    "prompt": "Check if this string contains the word 'Error': System status: OK, no issues detected.",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 18.900000000000002,
+      "char_length": 86.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 21,
+    "prompt": "Parse this timestamp into ISO-8601 string: 2026-10-13 14:05:00 UTC.",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 12.15,
+      "char_length": 67.0,
+      "has_context": 0.0,
+      "simple_verb_count": 1.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 22,
+    "prompt": "Given context: Alice is a software engineer. Bob is a product designer. Question: What is Bob's job?",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 22.950000000000003,
+      "char_length": 100.0,
+      "has_context": 1.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 1.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 23,
+    "prompt": "Extract currency symbol and numerical value from: \u20ac245.50 charged to Mastercard.",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 14.850000000000001,
+      "char_length": 80.0,
+      "has_context": 0.0,
+      "simple_verb_count": 1.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 24,
+    "prompt": "Convert this text into bullet points: We need bread, milk, eggs, and butter.",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 17.55,
+      "char_length": 76.0,
+      "has_context": 0.0,
+      "simple_verb_count": 1.0,
+      "moderate_verb_count": 1.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 25,
+    "prompt": "Find the HTTP response code in: Server returned status 404 Not Found for resource.",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 18.900000000000002,
+      "char_length": 82.0,
+      "has_context": 0.0,
+      "simple_verb_count": 1.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 26,
+    "prompt": "Reformat the following names to Last, First: Alan Turing, Grace Hopper, Ada Lovelace.",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 17.55,
+      "char_length": 85.0,
+      "has_context": 0.0,
+      "simple_verb_count": 1.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 27,
+    "prompt": "Extract the error code: Fatal crash EXCEPTION_ACCESS_VIOLATION at address 0x00401000.",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 13.5,
+      "char_length": 85.0,
+      "has_context": 0.0,
+      "simple_verb_count": 1.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 28,
+    "prompt": "Lookup discount percentage: Promo code SAVE20 provides a 20% discount on cart items.",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 17.55,
+      "char_length": 84.0,
+      "has_context": 0.0,
+      "simple_verb_count": 1.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 29,
+    "prompt": "Convert this temperature: 72 degrees Fahrenheit to Celsius using formula.",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 13.5,
+      "char_length": 73.0,
+      "has_context": 0.0,
+      "simple_verb_count": 1.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 30,
+    "prompt": "Extract the product SKU from: Item: Wireless Noise Canceling Headphones, SKU: WN-902-BLK.",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 16.200000000000003,
+      "char_length": 89.0,
+      "has_context": 0.0,
+      "simple_verb_count": 1.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 31,
+    "prompt": "Summarize the following earnings report paragraph in 3 bullet points, highlighting revenue growth and operating margin.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 21.6,
+      "char_length": 119.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 2.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 32,
+    "prompt": "Classify the sentiment of this customer review as positive, neutral, or negative: The delivery was late but the build quality is decent.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 29.700000000000003,
+      "char_length": 136.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 2.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 33,
+    "prompt": "Draft a professional response to a client inquiring about our Q3 software release timeline.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 18.900000000000002,
+      "char_length": 91.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 1.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 34,
+    "prompt": "Categorize these support tickets into Billing, Technical Support, or Account Inquiries.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 14.850000000000001,
+      "char_length": 87.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 1.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 35,
+    "prompt": "Explain the difference between optimistic and pessimistic locking in relational databases in simple terms.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 18.900000000000002,
+      "char_length": 106.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 1.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 36,
+    "prompt": "Summarize the key findings from this research abstract on sleep cycles and cognitive performance.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 18.900000000000002,
+      "char_length": 97.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 1.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 37,
+    "prompt": "Generate a SQL query to calculate average order value per customer from the orders and customers tables.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 22.950000000000003,
+      "char_length": 104.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 1.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 38,
+    "prompt": "Write a 150-word executive summary of this project post-mortem document focusing on mitigation steps.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 18.900000000000002,
+      "char_length": 101.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 1.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 39,
+    "prompt": "Classify whether this incoming email is spam, sales outreach, or genuine customer correspondence.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 17.55,
+      "char_length": 97.0,
+      "has_context": 0.0,
+      "simple_verb_count": 1.0,
+      "moderate_verb_count": 1.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 40,
+    "prompt": "Translate this French customer service announcement to polite and idiomatic English.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 14.850000000000001,
+      "char_length": 84.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 1.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 41,
+    "prompt": "Outline the pros and cons of adopting GraphQL versus REST for a mobile banking application.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 20.25,
+      "char_length": 91.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 2.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 42,
+    "prompt": "Summarize the key obligations of both parties in this non-disclosure agreement clause.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 16.200000000000003,
+      "char_length": 86.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 1.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 43,
+    "prompt": "Classify the severity level (P1, P2, P3) of this incident ticket based on customer outage descriptions.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 21.6,
+      "char_length": 103.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 1.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 44,
+    "prompt": "Write an engaging introductory paragraph for a blog post about micro-frontend architecture.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 16.200000000000003,
+      "char_length": 91.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 45,
+    "prompt": "Describe the main steps required to migrate a monolithic Flask application to FastAPI microservices.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 18.900000000000002,
+      "char_length": 100.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 1.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 46,
+    "prompt": "Summarize this meeting transcript and identify all assigned action items with assignees.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 16.200000000000003,
+      "char_length": 88.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 1.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 47,
+    "prompt": "Categorize these transaction descriptions into budget categories: Groceries, Utilities, Entertainment.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 13.5,
+      "char_length": 102.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 1.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 48,
+    "prompt": "Provide a structured breakdown of the strengths and weaknesses of Tailwind CSS vs CSS Modules.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 20.25,
+      "char_length": 94.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 49,
+    "prompt": "Draft an email thanking a job applicant for interviewing and informing them of the next round.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 21.6,
+      "char_length": 94.0,
+      "has_context": 0.0,
+      "simple_verb_count": 1.0,
+      "moderate_verb_count": 1.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 50,
+    "prompt": "Explain how DNS resolution works step-by-step from browser URL entry to IP connection.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 17.55,
+      "char_length": 86.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 1.0,
+      "complex_verb_count": 1.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 51,
+    "prompt": "Generate a concise summary of the Federal Reserve's latest interest rate decision statement.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 17.55,
+      "char_length": 92.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 1.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 52,
+    "prompt": "Classify the intent of this conversational query: 'Where can I find instructions to reset my two-factor auth?'",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 22.950000000000003,
+      "char_length": 110.0,
+      "has_context": 0.0,
+      "simple_verb_count": 1.0,
+      "moderate_verb_count": 1.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 1.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 53,
+    "prompt": "Create an outline for a 30-minute workshop on effective Git branching strategies for junior developers.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 20.25,
+      "char_length": 103.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 1.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 54,
+    "prompt": "Summarize the plot and thematic motifs of the novel 1984 in under 200 words.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 18.900000000000002,
+      "char_length": 76.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 1.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 1.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 55,
+    "prompt": "Write a Python helper function using regex to validate UUIDv4 strings and include unit test assertions.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 21.6,
+      "char_length": 103.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 1.0,
+      "question_count": 0.0,
+      "has_code_syntax": 1.0
+    }
+  },
+  {
+    "id": 56,
+    "prompt": "Classify this bug report into Frontend, Backend, Database, or DevOps based on the stack trace.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 20.25,
+      "char_length": 94.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 1.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 57,
+    "prompt": "Synthesize these three customer feedback surveys into top three product roadmap requests.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 16.200000000000003,
+      "char_length": 89.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 1.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 58,
+    "prompt": "Explain the concept of event loop in Node.js and how non-blocking I/O differs from multithreading.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 20.25,
+      "char_length": 98.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 1.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 59,
+    "prompt": "Summarize the core security principles of Zero Trust Architecture for enterprise IT.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 16.200000000000003,
+      "char_length": 84.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 1.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 60,
+    "prompt": "Draft release notes for version 2.4.0 detailing breaking changes, new features, and deprecation notices.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 18.900000000000002,
+      "char_length": 104.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 1.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 61,
+    "prompt": "Critically analyze the trade-offs between Paxos and Raft consensus algorithms under asymmetric network partitions, proving safety invariants.",
+    "tier": "tier_3",
+    "features": {
+      "token_count": 22.950000000000003,
+      "char_length": 141.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 1.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 62,
+    "prompt": "Architect a fault-tolerant multi-region event-driven telemetry ingestion system handling 5M events/sec with strict idempotency and sub-100ms latency.",
+    "tier": "tier_3",
+    "features": {
+      "token_count": 22.950000000000003,
+      "char_length": 149.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 1.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 63,
+    "prompt": "Analyze the legal indemnification clause in this commercial contract to determine exposure to third-party IP infringement damages under California jurisdiction.",
+    "tier": "tier_3",
+    "features": {
+      "token_count": 27.0,
+      "char_length": 160.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 1.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 64,
+    "prompt": "Derive the mathematical proof for convergence in stochastic gradient descent under non-convex loss surfaces, specifying Lipschitz continuity assumptions.",
+    "tier": "tier_3",
+    "features": {
+      "token_count": 24.3,
+      "char_length": 153.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 1.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 65,
+    "prompt": "Diagnose this deadlock scenario in a distributed Postgres cluster involving serializable isolation, row-level locks, and foreign key cascades.",
+    "tier": "tier_3",
+    "features": {
+      "token_count": 24.3,
+      "char_length": 142.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 1.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 66,
+    "prompt": "Evaluate the geopolitical and macroeconomic ramifications of semiconductor export controls across global supply chains over the next decade.",
+    "tier": "tier_3",
+    "features": {
+      "token_count": 24.3,
+      "char_length": 140.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 1.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 67,
+    "prompt": "Design an enterprise Zero-Knowledge Proof (ZKP) identity verification protocol adhering to GDPR compliance and minimal disclosure proofs.",
+    "tier": "tier_3",
+    "features": {
+      "token_count": 22.950000000000003,
+      "char_length": 137.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 1.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 68,
+    "prompt": "Write a sophisticated philosophical critique examining deterministic materialism versus emergent dualism in the context of artificial general intelligence.",
+    "tier": "tier_3",
+    "features": {
+      "token_count": 24.3,
+      "char_length": 155.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 1.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 69,
+    "prompt": "Synthesize a comprehensive disaster recovery and business continuity plan for a Tier 1 investment bank following a multi-datacenter ransomware compromise.",
+    "tier": "tier_3",
+    "features": {
+      "token_count": 27.0,
+      "char_length": 154.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 1.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 70,
+    "prompt": "Conduct a deep multi-step root cause analysis on this Linux kernel memory leak stack trace involving slab allocator fragmentation and epoll file descriptors.",
+    "tier": "tier_3",
+    "features": {
+      "token_count": 31.05,
+      "char_length": 157.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 2.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 71,
+    "prompt": "Design an automated market maker (AMM) bonding curve formula that resists sandwich attacks and impermanent loss through dynamic fee adaptation.",
+    "tier": "tier_3",
+    "features": {
+      "token_count": 27.0,
+      "char_length": 143.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 1.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 72,
+    "prompt": "Critique this complex C++20 concurrent lock-free queue implementation, identifying potential ABA race conditions and memory barrier memory order violations.",
+    "tier": "tier_3",
+    "features": {
+      "token_count": 25.650000000000002,
+      "char_length": 156.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 1.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 73,
+    "prompt": "Architect an end-to-end LLM orchestration pipeline with speculative decoding, semantic caching, vector indexing, and dynamic guardrail filtering.",
+    "tier": "tier_3",
+    "features": {
+      "token_count": 22.950000000000003,
+      "char_length": 145.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 1.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 74,
+    "prompt": "Analyze the biochemical pathway of CRISPR-Cas9 off-target cleavage mechanisms and propose novel guide-RNA structural modifications to maximize specificity.",
+    "tier": "tier_3",
+    "features": {
+      "token_count": 24.3,
+      "char_length": 155.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 1.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 75,
+    "prompt": "Evaluate the ethical, legal, and operational dilemmas of deploying autonomous weapon systems under International Humanitarian Law conventions.",
+    "tier": "tier_3",
+    "features": {
+      "token_count": 22.950000000000003,
+      "char_length": 142.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 1.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 76,
+    "prompt": "Formulate a multi-variable game theoretic model predicting pricing equilibrium in an oligopolistic cloud computing market with switching costs.",
+    "tier": "tier_3",
+    "features": {
+      "token_count": 24.3,
+      "char_length": 143.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 77,
+    "prompt": "Develop a formal verification specification in TLA+ for a distributed two-phase commit transaction manager handling coordinator crashes.",
+    "tier": "tier_3",
+    "features": {
+      "token_count": 22.950000000000003,
+      "char_length": 136.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 78,
+    "prompt": "Perform a rigorous security audit of this smart contract bytecode, identifying reentrancy vulnerabilities, oracle manipulation vectors, and integer overflows.",
+    "tier": "tier_3",
+    "features": {
+      "token_count": 25.650000000000002,
+      "char_length": 158.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 79,
+    "prompt": "Synthesize an overarching cloud migration roadmap for a 30-year-old mainframe core banking ledger to cloud-native microservices with zero downtime.",
+    "tier": "tier_3",
+    "features": {
+      "token_count": 25.650000000000002,
+      "char_length": 147.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 1.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 80,
+    "prompt": "Compare and contrast quantum key distribution (QKD) versus post-quantum lattice-based cryptography (Kyber) across implementation complexity, security guarantees, and throughput.",
+    "tier": "tier_3",
+    "features": {
+      "token_count": 25.650000000000002,
+      "char_length": 177.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 2.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 81,
+    "prompt": "Extract the user ID from: Session token valid for user_id=usr_99182a expires at midnight.",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 17.55,
+      "char_length": 89.0,
+      "has_context": 0.0,
+      "simple_verb_count": 1.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 82,
+    "prompt": "Extract the user ID from: Session token valid for user_id=abc49281-prod expires at midnight.",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 17.55,
+      "char_length": 92.0,
+      "has_context": 0.0,
+      "simple_verb_count": 1.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 83,
+    "prompt": "Extract the user ID from: Session token valid for user_id=200 OK expires at midnight.",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 18.900000000000002,
+      "char_length": 85.0,
+      "has_context": 0.0,
+      "simple_verb_count": 1.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 84,
+    "prompt": "Extract the user ID from: Session token valid for user_id=CA-7XY981 expires at midnight.",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 17.55,
+      "char_length": 88.0,
+      "has_context": 0.0,
+      "simple_verb_count": 1.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 85,
+    "prompt": "Extract the user ID from: Session token valid for user_id=UNEXPECTED_ERROR_OCCURRED expires at midnight.",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 17.55,
+      "char_length": 104.0,
+      "has_context": 0.0,
+      "simple_verb_count": 1.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 86,
+    "prompt": "Extract the user ID from: Session token valid for user_id=$89.50 expires at midnight.",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 17.55,
+      "char_length": 85.0,
+      "has_context": 0.0,
+      "simple_verb_count": 1.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 87,
+    "prompt": "Extract the user ID from: Session token valid for user_id=analytics.company-cloud.net expires at midnight.",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 17.55,
+      "char_length": 106.0,
+      "has_context": 0.0,
+      "simple_verb_count": 1.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 88,
+    "prompt": "Extract the user ID from: Session token valid for user_id=Dr. Marcus Vance expires at midnight.",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 20.25,
+      "char_length": 95.0,
+      "has_context": 0.0,
+      "simple_verb_count": 1.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 89,
+    "prompt": "Reformat the following product code into uppercase hyphenated syntax: usr_99182a.",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 13.5,
+      "char_length": 81.0,
+      "has_context": 0.0,
+      "simple_verb_count": 2.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 90,
+    "prompt": "Reformat the following product code into uppercase hyphenated syntax: abc49281-prod.",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 13.5,
+      "char_length": 84.0,
+      "has_context": 0.0,
+      "simple_verb_count": 2.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 91,
+    "prompt": "Reformat the following product code into uppercase hyphenated syntax: 200 OK.",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 14.850000000000001,
+      "char_length": 77.0,
+      "has_context": 0.0,
+      "simple_verb_count": 2.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 92,
+    "prompt": "Reformat the following product code into uppercase hyphenated syntax: CA-7XY981.",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 13.5,
+      "char_length": 80.0,
+      "has_context": 0.0,
+      "simple_verb_count": 2.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 93,
+    "prompt": "Reformat the following product code into uppercase hyphenated syntax: UNEXPECTED_ERROR_OCCURRED.",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 13.5,
+      "char_length": 96.0,
+      "has_context": 0.0,
+      "simple_verb_count": 2.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 94,
+    "prompt": "Reformat the following product code into uppercase hyphenated syntax: $89.50.",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 13.5,
+      "char_length": 77.0,
+      "has_context": 0.0,
+      "simple_verb_count": 2.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 95,
+    "prompt": "Reformat the following product code into uppercase hyphenated syntax: analytics.company-cloud.net.",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 13.5,
+      "char_length": 98.0,
+      "has_context": 0.0,
+      "simple_verb_count": 2.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 96,
+    "prompt": "Reformat the following product code into uppercase hyphenated syntax: Dr. Marcus Vance.",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 16.200000000000003,
+      "char_length": 87.0,
+      "has_context": 0.0,
+      "simple_verb_count": 2.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 97,
+    "prompt": "Parse the status code and message from: HTTP/1.1 usr_99182a Connection established.",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 14.850000000000001,
+      "char_length": 83.0,
+      "has_context": 0.0,
+      "simple_verb_count": 1.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 98,
+    "prompt": "Parse the status code and message from: HTTP/1.1 abc49281-prod Connection established.",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 14.850000000000001,
+      "char_length": 86.0,
+      "has_context": 0.0,
+      "simple_verb_count": 1.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 99,
+    "prompt": "Parse the status code and message from: HTTP/1.1 200 OK Connection established.",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 16.200000000000003,
+      "char_length": 79.0,
+      "has_context": 0.0,
+      "simple_verb_count": 1.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 100,
+    "prompt": "Parse the status code and message from: HTTP/1.1 CA-7XY981 Connection established.",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 14.850000000000001,
+      "char_length": 82.0,
+      "has_context": 0.0,
+      "simple_verb_count": 1.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 101,
+    "prompt": "Parse the status code and message from: HTTP/1.1 UNEXPECTED_ERROR_OCCURRED Connection established.",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 14.850000000000001,
+      "char_length": 98.0,
+      "has_context": 0.0,
+      "simple_verb_count": 1.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 102,
+    "prompt": "Parse the status code and message from: HTTP/1.1 $89.50 Connection established.",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 14.850000000000001,
+      "char_length": 79.0,
+      "has_context": 0.0,
+      "simple_verb_count": 1.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 103,
+    "prompt": "Parse the status code and message from: HTTP/1.1 analytics.company-cloud.net Connection established.",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 14.850000000000001,
+      "char_length": 100.0,
+      "has_context": 0.0,
+      "simple_verb_count": 1.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 104,
+    "prompt": "Parse the status code and message from: HTTP/1.1 Dr. Marcus Vance Connection established.",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 17.55,
+      "char_length": 89.0,
+      "has_context": 0.0,
+      "simple_verb_count": 1.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 105,
+    "prompt": "Extract the license plate number from the incident log: Vehicle sighted usr_99182a on highway.",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 18.900000000000002,
+      "char_length": 94.0,
+      "has_context": 0.0,
+      "simple_verb_count": 1.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 106,
+    "prompt": "Extract the license plate number from the incident log: Vehicle sighted abc49281-prod on highway.",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 18.900000000000002,
+      "char_length": 97.0,
+      "has_context": 0.0,
+      "simple_verb_count": 1.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 107,
+    "prompt": "Extract the license plate number from the incident log: Vehicle sighted 200 OK on highway.",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 20.25,
+      "char_length": 90.0,
+      "has_context": 0.0,
+      "simple_verb_count": 1.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 108,
+    "prompt": "Extract the license plate number from the incident log: Vehicle sighted CA-7XY981 on highway.",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 18.900000000000002,
+      "char_length": 93.0,
+      "has_context": 0.0,
+      "simple_verb_count": 1.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 109,
+    "prompt": "Extract the license plate number from the incident log: Vehicle sighted UNEXPECTED_ERROR_OCCURRED on highway.",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 18.900000000000002,
+      "char_length": 109.0,
+      "has_context": 0.0,
+      "simple_verb_count": 1.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 110,
+    "prompt": "Extract the license plate number from the incident log: Vehicle sighted $89.50 on highway.",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 18.900000000000002,
+      "char_length": 90.0,
+      "has_context": 0.0,
+      "simple_verb_count": 1.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 111,
+    "prompt": "Extract the license plate number from the incident log: Vehicle sighted analytics.company-cloud.net on highway.",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 18.900000000000002,
+      "char_length": 111.0,
+      "has_context": 0.0,
+      "simple_verb_count": 1.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 112,
+    "prompt": "Extract the license plate number from the incident log: Vehicle sighted Dr. Marcus Vance on highway.",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 21.6,
+      "char_length": 100.0,
+      "has_context": 0.0,
+      "simple_verb_count": 1.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 113,
+    "prompt": "Convert the following string to lowercase: 'usr_99182a'.",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 9.450000000000001,
+      "char_length": 56.0,
+      "has_context": 0.0,
+      "simple_verb_count": 2.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 114,
+    "prompt": "Convert the following string to lowercase: 'abc49281-prod'.",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 9.450000000000001,
+      "char_length": 59.0,
+      "has_context": 0.0,
+      "simple_verb_count": 2.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 115,
+    "prompt": "Convert the following string to lowercase: '200 OK'.",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 10.8,
+      "char_length": 52.0,
+      "has_context": 0.0,
+      "simple_verb_count": 2.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 116,
+    "prompt": "Convert the following string to lowercase: 'CA-7XY981'.",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 9.450000000000001,
+      "char_length": 55.0,
+      "has_context": 0.0,
+      "simple_verb_count": 2.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 117,
+    "prompt": "Convert the following string to lowercase: 'UNEXPECTED_ERROR_OCCURRED'.",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 9.450000000000001,
+      "char_length": 71.0,
+      "has_context": 0.0,
+      "simple_verb_count": 2.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 118,
+    "prompt": "Convert the following string to lowercase: '$89.50'.",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 9.450000000000001,
+      "char_length": 52.0,
+      "has_context": 0.0,
+      "simple_verb_count": 2.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 119,
+    "prompt": "Convert the following string to lowercase: 'analytics.company-cloud.net'.",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 9.450000000000001,
+      "char_length": 73.0,
+      "has_context": 0.0,
+      "simple_verb_count": 2.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 120,
+    "prompt": "Convert the following string to lowercase: 'Dr. Marcus Vance'.",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 12.15,
+      "char_length": 62.0,
+      "has_context": 0.0,
+      "simple_verb_count": 2.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 121,
+    "prompt": "Extract the monetary value from: Receipt total is usr_99182a including taxes.",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 14.850000000000001,
+      "char_length": 77.0,
+      "has_context": 0.0,
+      "simple_verb_count": 1.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 122,
+    "prompt": "Extract the monetary value from: Receipt total is abc49281-prod including taxes.",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 14.850000000000001,
+      "char_length": 80.0,
+      "has_context": 0.0,
+      "simple_verb_count": 1.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 123,
+    "prompt": "Extract the monetary value from: Receipt total is 200 OK including taxes.",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 16.200000000000003,
+      "char_length": 73.0,
+      "has_context": 0.0,
+      "simple_verb_count": 1.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 124,
+    "prompt": "Extract the monetary value from: Receipt total is CA-7XY981 including taxes.",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 14.850000000000001,
+      "char_length": 76.0,
+      "has_context": 0.0,
+      "simple_verb_count": 1.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 125,
+    "prompt": "Extract the monetary value from: Receipt total is UNEXPECTED_ERROR_OCCURRED including taxes.",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 14.850000000000001,
+      "char_length": 92.0,
+      "has_context": 0.0,
+      "simple_verb_count": 1.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 126,
+    "prompt": "Extract the monetary value from: Receipt total is $89.50 including taxes.",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 14.850000000000001,
+      "char_length": 73.0,
+      "has_context": 0.0,
+      "simple_verb_count": 1.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 127,
+    "prompt": "Extract the monetary value from: Receipt total is analytics.company-cloud.net including taxes.",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 14.850000000000001,
+      "char_length": 94.0,
+      "has_context": 0.0,
+      "simple_verb_count": 1.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 128,
+    "prompt": "Extract the monetary value from: Receipt total is Dr. Marcus Vance including taxes.",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 17.55,
+      "char_length": 83.0,
+      "has_context": 0.0,
+      "simple_verb_count": 1.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 129,
+    "prompt": "Find the domain name in the web address: https://usr_99182a/api/v1/resource.",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 12.15,
+      "char_length": 76.0,
+      "has_context": 0.0,
+      "simple_verb_count": 1.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 1.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 130,
+    "prompt": "Find the domain name in the web address: https://abc49281-prod/api/v1/resource.",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 12.15,
+      "char_length": 79.0,
+      "has_context": 0.0,
+      "simple_verb_count": 1.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 1.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 131,
+    "prompt": "Find the domain name in the web address: https://200 OK/api/v1/resource.",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 13.5,
+      "char_length": 72.0,
+      "has_context": 0.0,
+      "simple_verb_count": 1.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 1.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 132,
+    "prompt": "Find the domain name in the web address: https://CA-7XY981/api/v1/resource.",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 12.15,
+      "char_length": 75.0,
+      "has_context": 0.0,
+      "simple_verb_count": 1.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 1.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 133,
+    "prompt": "Find the domain name in the web address: https://UNEXPECTED_ERROR_OCCURRED/api/v1/resource.",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 12.15,
+      "char_length": 91.0,
+      "has_context": 0.0,
+      "simple_verb_count": 1.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 1.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 134,
+    "prompt": "Find the domain name in the web address: https://$89.50/api/v1/resource.",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 12.15,
+      "char_length": 72.0,
+      "has_context": 0.0,
+      "simple_verb_count": 1.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 1.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 135,
+    "prompt": "Find the domain name in the web address: https://analytics.company-cloud.net/api/v1/resource.",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 12.15,
+      "char_length": 93.0,
+      "has_context": 0.0,
+      "simple_verb_count": 1.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 1.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 136,
+    "prompt": "Find the domain name in the web address: https://Dr. Marcus Vance/api/v1/resource.",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 14.850000000000001,
+      "char_length": 82.0,
+      "has_context": 0.0,
+      "simple_verb_count": 1.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 1.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 137,
+    "prompt": "Given context: usr_99182a is the primary contact. Question: Who should I contact?",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 16.200000000000003,
+      "char_length": 81.0,
+      "has_context": 1.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 1.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 138,
+    "prompt": "Given context: abc49281-prod is the primary contact. Question: Who should I contact?",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 16.200000000000003,
+      "char_length": 84.0,
+      "has_context": 1.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 1.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 139,
+    "prompt": "Given context: 200 OK is the primary contact. Question: Who should I contact?",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 17.55,
+      "char_length": 77.0,
+      "has_context": 1.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 1.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 140,
+    "prompt": "Given context: CA-7XY981 is the primary contact. Question: Who should I contact?",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 16.200000000000003,
+      "char_length": 80.0,
+      "has_context": 1.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 1.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 141,
+    "prompt": "Given context: UNEXPECTED_ERROR_OCCURRED is the primary contact. Question: Who should I contact?",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 16.200000000000003,
+      "char_length": 96.0,
+      "has_context": 1.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 1.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 142,
+    "prompt": "Given context: $89.50 is the primary contact. Question: Who should I contact?",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 16.200000000000003,
+      "char_length": 77.0,
+      "has_context": 1.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 1.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 143,
+    "prompt": "Given context: analytics.company-cloud.net is the primary contact. Question: Who should I contact?",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 16.200000000000003,
+      "char_length": 98.0,
+      "has_context": 1.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 1.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 144,
+    "prompt": "Given context: Dr. Marcus Vance is the primary contact. Question: Who should I contact?",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 18.900000000000002,
+      "char_length": 87.0,
+      "has_context": 1.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 1.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 145,
+    "prompt": "Extract the hex color code from this CSS snippet: color: usr_99182a; margin: 0 auto;",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 18.900000000000002,
+      "char_length": 84.0,
+      "has_context": 0.0,
+      "simple_verb_count": 1.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 146,
+    "prompt": "Extract the hex color code from this CSS snippet: color: abc49281-prod; margin: 0 auto;",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 18.900000000000002,
+      "char_length": 87.0,
+      "has_context": 0.0,
+      "simple_verb_count": 1.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 147,
+    "prompt": "Extract the hex color code from this CSS snippet: color: 200 OK; margin: 0 auto;",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 20.25,
+      "char_length": 80.0,
+      "has_context": 0.0,
+      "simple_verb_count": 1.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 148,
+    "prompt": "Extract the hex color code from this CSS snippet: color: CA-7XY981; margin: 0 auto;",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 18.900000000000002,
+      "char_length": 83.0,
+      "has_context": 0.0,
+      "simple_verb_count": 1.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 149,
+    "prompt": "Extract the hex color code from this CSS snippet: color: UNEXPECTED_ERROR_OCCURRED; margin: 0 auto;",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 18.900000000000002,
+      "char_length": 99.0,
+      "has_context": 0.0,
+      "simple_verb_count": 1.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 150,
+    "prompt": "Extract the hex color code from this CSS snippet: color: $89.50; margin: 0 auto;",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 18.900000000000002,
+      "char_length": 80.0,
+      "has_context": 0.0,
+      "simple_verb_count": 1.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 151,
+    "prompt": "Extract the hex color code from this CSS snippet: color: analytics.company-cloud.net; margin: 0 auto;",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 18.900000000000002,
+      "char_length": 101.0,
+      "has_context": 0.0,
+      "simple_verb_count": 1.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 152,
+    "prompt": "Extract the hex color code from this CSS snippet: color: Dr. Marcus Vance; margin: 0 auto;",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 21.6,
+      "char_length": 90.0,
+      "has_context": 0.0,
+      "simple_verb_count": 1.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 153,
+    "prompt": "Format the following list of items into standard JSON array: usr_99182a.",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 14.850000000000001,
+      "char_length": 72.0,
+      "has_context": 0.0,
+      "simple_verb_count": 1.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 1.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 154,
+    "prompt": "Format the following list of items into standard JSON array: abc49281-prod.",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 14.850000000000001,
+      "char_length": 75.0,
+      "has_context": 0.0,
+      "simple_verb_count": 1.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 1.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 155,
+    "prompt": "Format the following list of items into standard JSON array: 200 OK.",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 16.200000000000003,
+      "char_length": 68.0,
+      "has_context": 0.0,
+      "simple_verb_count": 1.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 1.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 156,
+    "prompt": "Format the following list of items into standard JSON array: CA-7XY981.",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 14.850000000000001,
+      "char_length": 71.0,
+      "has_context": 0.0,
+      "simple_verb_count": 1.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 1.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 157,
+    "prompt": "Format the following list of items into standard JSON array: UNEXPECTED_ERROR_OCCURRED.",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 14.850000000000001,
+      "char_length": 87.0,
+      "has_context": 0.0,
+      "simple_verb_count": 1.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 1.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 158,
+    "prompt": "Format the following list of items into standard JSON array: $89.50.",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 14.850000000000001,
+      "char_length": 68.0,
+      "has_context": 0.0,
+      "simple_verb_count": 1.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 1.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 159,
+    "prompt": "Format the following list of items into standard JSON array: analytics.company-cloud.net.",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 14.850000000000001,
+      "char_length": 89.0,
+      "has_context": 0.0,
+      "simple_verb_count": 1.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 1.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 160,
+    "prompt": "Format the following list of items into standard JSON array: Dr. Marcus Vance.",
+    "tier": "tier_1",
+    "features": {
+      "token_count": 17.55,
+      "char_length": 78.0,
+      "has_context": 0.0,
+      "simple_verb_count": 1.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 1.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 161,
+    "prompt": "Summarize the quarterly performance metrics for customer support SLA compliance highlighting gross margin and churn.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 20.25,
+      "char_length": 116.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 1.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 162,
+    "prompt": "Summarize the quarterly performance metrics for Apache Kafka event streaming highlighting gross margin and churn.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 20.25,
+      "char_length": 113.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 1.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 163,
+    "prompt": "Summarize the quarterly performance metrics for Kubernetes pod autoscaling highlighting gross margin and churn.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 18.900000000000002,
+      "char_length": 111.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 1.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 164,
+    "prompt": "Summarize the quarterly performance metrics for GraphQL schema federation highlighting gross margin and churn.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 18.900000000000002,
+      "char_length": 110.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 1.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 1.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 165,
+    "prompt": "Summarize the quarterly performance metrics for Redis caching eviction policies highlighting gross margin and churn.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 20.25,
+      "char_length": 116.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 1.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 166,
+    "prompt": "Summarize the quarterly performance metrics for OAuth 2.0 PKCE flow highlighting gross margin and churn.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 20.25,
+      "char_length": 104.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 1.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 167,
+    "prompt": "Summarize the quarterly performance metrics for PostgreSQL query optimization highlighting gross margin and churn.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 18.900000000000002,
+      "char_length": 114.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 1.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 168,
+    "prompt": "Summarize the quarterly performance metrics for CI/CD automated rollback triggers highlighting gross margin and churn.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 20.25,
+      "char_length": 118.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 1.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 169,
+    "prompt": "Summarize the quarterly performance metrics for Docker multi-stage builds highlighting gross margin and churn.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 18.900000000000002,
+      "char_length": 110.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 1.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 170,
+    "prompt": "Summarize the quarterly performance metrics for WebSocket connection pooling highlighting gross margin and churn.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 18.900000000000002,
+      "char_length": 113.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 1.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 171,
+    "prompt": "Classify the tone of the customer message regarding customer support SLA compliance into frustrated, satisfied, or neutral.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 22.950000000000003,
+      "char_length": 123.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 1.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 172,
+    "prompt": "Classify the tone of the customer message regarding Apache Kafka event streaming into frustrated, satisfied, or neutral.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 22.950000000000003,
+      "char_length": 120.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 1.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 173,
+    "prompt": "Classify the tone of the customer message regarding Kubernetes pod autoscaling into frustrated, satisfied, or neutral.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 21.6,
+      "char_length": 118.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 1.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 174,
+    "prompt": "Classify the tone of the customer message regarding GraphQL schema federation into frustrated, satisfied, or neutral.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 21.6,
+      "char_length": 117.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 1.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 1.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 175,
+    "prompt": "Classify the tone of the customer message regarding Redis caching eviction policies into frustrated, satisfied, or neutral.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 22.950000000000003,
+      "char_length": 123.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 1.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 176,
+    "prompt": "Classify the tone of the customer message regarding OAuth 2.0 PKCE flow into frustrated, satisfied, or neutral.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 22.950000000000003,
+      "char_length": 111.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 1.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 177,
+    "prompt": "Classify the tone of the customer message regarding PostgreSQL query optimization into frustrated, satisfied, or neutral.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 21.6,
+      "char_length": 121.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 1.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 178,
+    "prompt": "Classify the tone of the customer message regarding CI/CD automated rollback triggers into frustrated, satisfied, or neutral.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 22.950000000000003,
+      "char_length": 125.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 1.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 179,
+    "prompt": "Classify the tone of the customer message regarding Docker multi-stage builds into frustrated, satisfied, or neutral.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 21.6,
+      "char_length": 117.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 1.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 180,
+    "prompt": "Classify the tone of the customer message regarding WebSocket connection pooling into frustrated, satisfied, or neutral.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 21.6,
+      "char_length": 120.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 1.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 181,
+    "prompt": "Draft a concise explanation of how customer support SLA compliance operates for a non-technical stakeholder.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 20.25,
+      "char_length": 108.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 1.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 182,
+    "prompt": "Draft a concise explanation of how Apache Kafka event streaming operates for a non-technical stakeholder.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 20.25,
+      "char_length": 105.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 1.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 183,
+    "prompt": "Draft a concise explanation of how Kubernetes pod autoscaling operates for a non-technical stakeholder.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 18.900000000000002,
+      "char_length": 103.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 1.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 184,
+    "prompt": "Draft a concise explanation of how GraphQL schema federation operates for a non-technical stakeholder.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 18.900000000000002,
+      "char_length": 102.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 1.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 1.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 185,
+    "prompt": "Draft a concise explanation of how Redis caching eviction policies operates for a non-technical stakeholder.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 20.25,
+      "char_length": 108.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 1.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 186,
+    "prompt": "Draft a concise explanation of how OAuth 2.0 PKCE flow operates for a non-technical stakeholder.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 20.25,
+      "char_length": 96.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 1.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 187,
+    "prompt": "Draft a concise explanation of how PostgreSQL query optimization operates for a non-technical stakeholder.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 18.900000000000002,
+      "char_length": 106.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 1.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 188,
+    "prompt": "Draft a concise explanation of how CI/CD automated rollback triggers operates for a non-technical stakeholder.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 20.25,
+      "char_length": 110.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 1.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 189,
+    "prompt": "Draft a concise explanation of how Docker multi-stage builds operates for a non-technical stakeholder.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 18.900000000000002,
+      "char_length": 102.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 1.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 190,
+    "prompt": "Draft a concise explanation of how WebSocket connection pooling operates for a non-technical stakeholder.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 18.900000000000002,
+      "char_length": 105.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 1.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 191,
+    "prompt": "Outline the primary trade-offs between choosing customer support SLA compliance over traditional relational architectures.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 18.900000000000002,
+      "char_length": 122.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 1.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 192,
+    "prompt": "Outline the primary trade-offs between choosing Apache Kafka event streaming over traditional relational architectures.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 18.900000000000002,
+      "char_length": 119.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 1.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 193,
+    "prompt": "Outline the primary trade-offs between choosing Kubernetes pod autoscaling over traditional relational architectures.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 17.55,
+      "char_length": 117.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 1.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 194,
+    "prompt": "Outline the primary trade-offs between choosing GraphQL schema federation over traditional relational architectures.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 17.55,
+      "char_length": 116.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 1.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 1.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 195,
+    "prompt": "Outline the primary trade-offs between choosing Redis caching eviction policies over traditional relational architectures.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 18.900000000000002,
+      "char_length": 122.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 1.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 196,
+    "prompt": "Outline the primary trade-offs between choosing OAuth 2.0 PKCE flow over traditional relational architectures.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 18.900000000000002,
+      "char_length": 110.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 1.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 197,
+    "prompt": "Outline the primary trade-offs between choosing PostgreSQL query optimization over traditional relational architectures.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 17.55,
+      "char_length": 120.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 1.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 198,
+    "prompt": "Outline the primary trade-offs between choosing CI/CD automated rollback triggers over traditional relational architectures.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 18.900000000000002,
+      "char_length": 124.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 1.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 199,
+    "prompt": "Outline the primary trade-offs between choosing Docker multi-stage builds over traditional relational architectures.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 17.55,
+      "char_length": 116.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 1.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 200,
+    "prompt": "Outline the primary trade-offs between choosing WebSocket connection pooling over traditional relational architectures.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 17.55,
+      "char_length": 119.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 1.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 201,
+    "prompt": "Categorize the following incident regarding customer support SLA compliance into Priority 1, 2, or 3 based on impact.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 24.3,
+      "char_length": 117.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 1.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 202,
+    "prompt": "Categorize the following incident regarding Apache Kafka event streaming into Priority 1, 2, or 3 based on impact.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 24.3,
+      "char_length": 114.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 1.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 203,
+    "prompt": "Categorize the following incident regarding Kubernetes pod autoscaling into Priority 1, 2, or 3 based on impact.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 22.950000000000003,
+      "char_length": 112.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 1.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 204,
+    "prompt": "Categorize the following incident regarding GraphQL schema federation into Priority 1, 2, or 3 based on impact.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 22.950000000000003,
+      "char_length": 111.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 1.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 1.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 205,
+    "prompt": "Categorize the following incident regarding Redis caching eviction policies into Priority 1, 2, or 3 based on impact.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 24.3,
+      "char_length": 117.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 1.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 206,
+    "prompt": "Categorize the following incident regarding OAuth 2.0 PKCE flow into Priority 1, 2, or 3 based on impact.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 24.3,
+      "char_length": 105.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 1.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 207,
+    "prompt": "Categorize the following incident regarding PostgreSQL query optimization into Priority 1, 2, or 3 based on impact.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 22.950000000000003,
+      "char_length": 115.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 1.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 208,
+    "prompt": "Categorize the following incident regarding CI/CD automated rollback triggers into Priority 1, 2, or 3 based on impact.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 24.3,
+      "char_length": 119.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 1.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 209,
+    "prompt": "Categorize the following incident regarding Docker multi-stage builds into Priority 1, 2, or 3 based on impact.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 22.950000000000003,
+      "char_length": 111.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 1.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 210,
+    "prompt": "Categorize the following incident regarding WebSocket connection pooling into Priority 1, 2, or 3 based on impact.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 22.950000000000003,
+      "char_length": 114.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 1.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 211,
+    "prompt": "Provide a structured 3-paragraph overview of recent advancements in customer support SLA compliance.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 17.55,
+      "char_length": 100.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 212,
+    "prompt": "Provide a structured 3-paragraph overview of recent advancements in Apache Kafka event streaming.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 17.55,
+      "char_length": 97.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 213,
+    "prompt": "Provide a structured 3-paragraph overview of recent advancements in Kubernetes pod autoscaling.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 16.200000000000003,
+      "char_length": 95.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 214,
+    "prompt": "Provide a structured 3-paragraph overview of recent advancements in GraphQL schema federation.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 16.200000000000003,
+      "char_length": 94.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 1.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 215,
+    "prompt": "Provide a structured 3-paragraph overview of recent advancements in Redis caching eviction policies.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 17.55,
+      "char_length": 100.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 216,
+    "prompt": "Provide a structured 3-paragraph overview of recent advancements in OAuth 2.0 PKCE flow.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 17.55,
+      "char_length": 88.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 217,
+    "prompt": "Provide a structured 3-paragraph overview of recent advancements in PostgreSQL query optimization.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 16.200000000000003,
+      "char_length": 98.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 218,
+    "prompt": "Provide a structured 3-paragraph overview of recent advancements in CI/CD automated rollback triggers.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 17.55,
+      "char_length": 102.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 219,
+    "prompt": "Provide a structured 3-paragraph overview of recent advancements in Docker multi-stage builds.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 16.200000000000003,
+      "char_length": 94.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 220,
+    "prompt": "Provide a structured 3-paragraph overview of recent advancements in WebSocket connection pooling.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 16.200000000000003,
+      "char_length": 97.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 221,
+    "prompt": "Write a standard operating procedure for onboarding new developers to our customer support SLA compliance workflow.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 21.6,
+      "char_length": 115.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 222,
+    "prompt": "Write a standard operating procedure for onboarding new developers to our Apache Kafka event streaming workflow.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 21.6,
+      "char_length": 112.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 223,
+    "prompt": "Write a standard operating procedure for onboarding new developers to our Kubernetes pod autoscaling workflow.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 20.25,
+      "char_length": 110.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 224,
+    "prompt": "Write a standard operating procedure for onboarding new developers to our GraphQL schema federation workflow.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 20.25,
+      "char_length": 109.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 1.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 225,
+    "prompt": "Write a standard operating procedure for onboarding new developers to our Redis caching eviction policies workflow.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 21.6,
+      "char_length": 115.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 226,
+    "prompt": "Write a standard operating procedure for onboarding new developers to our OAuth 2.0 PKCE flow workflow.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 21.6,
+      "char_length": 103.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 227,
+    "prompt": "Write a standard operating procedure for onboarding new developers to our PostgreSQL query optimization workflow.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 20.25,
+      "char_length": 113.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 228,
+    "prompt": "Write a standard operating procedure for onboarding new developers to our CI/CD automated rollback triggers workflow.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 21.6,
+      "char_length": 117.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 229,
+    "prompt": "Write a standard operating procedure for onboarding new developers to our Docker multi-stage builds workflow.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 20.25,
+      "char_length": 109.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 230,
+    "prompt": "Write a standard operating procedure for onboarding new developers to our WebSocket connection pooling workflow.",
+    "tier": "tier_2",
+    "features": {
+      "token_count": 20.25,
+      "char_length": 112.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 231,
+    "prompt": "Architect a high-availability distributed architecture for zero-knowledge rollup validation network with Byzantine fault tolerance and formal latency SLA guarantees.",
+    "tier": "tier_3",
+    "features": {
+      "token_count": 25.650000000000002,
+      "char_length": 165.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 1.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 232,
+    "prompt": "Architect a high-availability distributed architecture for high-frequency algorithmic order execution matching engine with Byzantine fault tolerance and formal latency SLA guarantees.",
+    "tier": "tier_3",
+    "features": {
+      "token_count": 28.35,
+      "char_length": 183.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 1.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 233,
+    "prompt": "Architect a high-availability distributed architecture for distributed multi-leader Raft replication cluster with Byzantine fault tolerance and formal latency SLA guarantees.",
+    "tier": "tier_3",
+    "features": {
+      "token_count": 27.0,
+      "char_length": 174.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 1.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 234,
+    "prompt": "Architect a high-availability distributed architecture for cryptographic threshold signature verification scheme with Byzantine fault tolerance and formal latency SLA guarantees.",
+    "tier": "tier_3",
+    "features": {
+      "token_count": 27.0,
+      "char_length": 178.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 1.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 235,
+    "prompt": "Architect a high-availability distributed architecture for asynchronous speculative execution hardware pipeline with Byzantine fault tolerance and formal latency SLA guarantees.",
+    "tier": "tier_3",
+    "features": {
+      "token_count": 27.0,
+      "char_length": 177.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 1.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 236,
+    "prompt": "Architect a high-availability distributed architecture for autonomous vehicle sensor-fusion Kalman filter pipeline with Byzantine fault tolerance and formal latency SLA guarantees.",
+    "tier": "tier_3",
+    "features": {
+      "token_count": 28.35,
+      "char_length": 180.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 1.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 237,
+    "prompt": "Architect a high-availability distributed architecture for quantum error-correcting surface code decoder with Byzantine fault tolerance and formal latency SLA guarantees.",
+    "tier": "tier_3",
+    "features": {
+      "token_count": 27.0,
+      "char_length": 170.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 1.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 238,
+    "prompt": "Architect a high-availability distributed architecture for decentralized verifiable delay function (VDF) network with Byzantine fault tolerance and formal latency SLA guarantees.",
+    "tier": "tier_3",
+    "features": {
+      "token_count": 28.35,
+      "char_length": 178.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 1.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 1.0
+    }
+  },
+  {
+    "id": 239,
+    "prompt": "Architect a high-availability distributed architecture for multi-tenant kernel-bypass eBPF packet routing fabric with Byzantine fault tolerance and formal latency SLA guarantees.",
+    "tier": "tier_3",
+    "features": {
+      "token_count": 28.35,
+      "char_length": 178.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 1.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 240,
+    "prompt": "Architect a high-availability distributed architecture for real-time transactional graph neural network engine with Byzantine fault tolerance and formal latency SLA guarantees.",
+    "tier": "tier_3",
+    "features": {
+      "token_count": 28.35,
+      "char_length": 176.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 1.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 241,
+    "prompt": "Conduct a comprehensive security threat model and penetration analysis for zero-knowledge rollup validation network under adversarial nation-state capabilities.",
+    "tier": "tier_3",
+    "features": {
+      "token_count": 24.3,
+      "char_length": 160.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 242,
+    "prompt": "Conduct a comprehensive security threat model and penetration analysis for high-frequency algorithmic order execution matching engine under adversarial nation-state capabilities.",
+    "tier": "tier_3",
+    "features": {
+      "token_count": 27.0,
+      "char_length": 178.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 243,
+    "prompt": "Conduct a comprehensive security threat model and penetration analysis for distributed multi-leader Raft replication cluster under adversarial nation-state capabilities.",
+    "tier": "tier_3",
+    "features": {
+      "token_count": 25.650000000000002,
+      "char_length": 169.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 244,
+    "prompt": "Conduct a comprehensive security threat model and penetration analysis for cryptographic threshold signature verification scheme under adversarial nation-state capabilities.",
+    "tier": "tier_3",
+    "features": {
+      "token_count": 25.650000000000002,
+      "char_length": 173.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 245,
+    "prompt": "Conduct a comprehensive security threat model and penetration analysis for asynchronous speculative execution hardware pipeline under adversarial nation-state capabilities.",
+    "tier": "tier_3",
+    "features": {
+      "token_count": 25.650000000000002,
+      "char_length": 172.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 246,
+    "prompt": "Conduct a comprehensive security threat model and penetration analysis for autonomous vehicle sensor-fusion Kalman filter pipeline under adversarial nation-state capabilities.",
+    "tier": "tier_3",
+    "features": {
+      "token_count": 27.0,
+      "char_length": 175.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 247,
+    "prompt": "Conduct a comprehensive security threat model and penetration analysis for quantum error-correcting surface code decoder under adversarial nation-state capabilities.",
+    "tier": "tier_3",
+    "features": {
+      "token_count": 25.650000000000002,
+      "char_length": 165.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 248,
+    "prompt": "Conduct a comprehensive security threat model and penetration analysis for decentralized verifiable delay function (VDF) network under adversarial nation-state capabilities.",
+    "tier": "tier_3",
+    "features": {
+      "token_count": 27.0,
+      "char_length": 173.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 1.0
+    }
+  },
+  {
+    "id": 249,
+    "prompt": "Conduct a comprehensive security threat model and penetration analysis for multi-tenant kernel-bypass eBPF packet routing fabric under adversarial nation-state capabilities.",
+    "tier": "tier_3",
+    "features": {
+      "token_count": 27.0,
+      "char_length": 173.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 250,
+    "prompt": "Conduct a comprehensive security threat model and penetration analysis for real-time transactional graph neural network engine under adversarial nation-state capabilities.",
+    "tier": "tier_3",
+    "features": {
+      "token_count": 27.0,
+      "char_length": 171.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 251,
+    "prompt": "Analyze the mathematical derivation and convergence bounds of zero-knowledge rollup validation network under non-convex optimization environments.",
+    "tier": "tier_3",
+    "features": {
+      "token_count": 21.6,
+      "char_length": 146.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 2.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 252,
+    "prompt": "Analyze the mathematical derivation and convergence bounds of high-frequency algorithmic order execution matching engine under non-convex optimization environments.",
+    "tier": "tier_3",
+    "features": {
+      "token_count": 24.3,
+      "char_length": 164.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 2.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 253,
+    "prompt": "Analyze the mathematical derivation and convergence bounds of distributed multi-leader Raft replication cluster under non-convex optimization environments.",
+    "tier": "tier_3",
+    "features": {
+      "token_count": 22.950000000000003,
+      "char_length": 155.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 2.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 254,
+    "prompt": "Analyze the mathematical derivation and convergence bounds of cryptographic threshold signature verification scheme under non-convex optimization environments.",
+    "tier": "tier_3",
+    "features": {
+      "token_count": 22.950000000000003,
+      "char_length": 159.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 2.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 255,
+    "prompt": "Analyze the mathematical derivation and convergence bounds of asynchronous speculative execution hardware pipeline under non-convex optimization environments.",
+    "tier": "tier_3",
+    "features": {
+      "token_count": 22.950000000000003,
+      "char_length": 158.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 2.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 256,
+    "prompt": "Analyze the mathematical derivation and convergence bounds of autonomous vehicle sensor-fusion Kalman filter pipeline under non-convex optimization environments.",
+    "tier": "tier_3",
+    "features": {
+      "token_count": 24.3,
+      "char_length": 161.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 2.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 257,
+    "prompt": "Analyze the mathematical derivation and convergence bounds of quantum error-correcting surface code decoder under non-convex optimization environments.",
+    "tier": "tier_3",
+    "features": {
+      "token_count": 22.950000000000003,
+      "char_length": 151.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 2.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 258,
+    "prompt": "Analyze the mathematical derivation and convergence bounds of decentralized verifiable delay function (VDF) network under non-convex optimization environments.",
+    "tier": "tier_3",
+    "features": {
+      "token_count": 24.3,
+      "char_length": 159.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 2.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 1.0
+    }
+  },
+  {
+    "id": 259,
+    "prompt": "Analyze the mathematical derivation and convergence bounds of multi-tenant kernel-bypass eBPF packet routing fabric under non-convex optimization environments.",
+    "tier": "tier_3",
+    "features": {
+      "token_count": 24.3,
+      "char_length": 159.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 2.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 260,
+    "prompt": "Analyze the mathematical derivation and convergence bounds of real-time transactional graph neural network engine under non-convex optimization environments.",
+    "tier": "tier_3",
+    "features": {
+      "token_count": 24.3,
+      "char_length": 157.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 2.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 261,
+    "prompt": "Design a multi-region cross-datacenter consensus and state replication engine for zero-knowledge rollup validation network that guarantees strict serializability during split-brain events.",
+    "tier": "tier_3",
+    "features": {
+      "token_count": 28.35,
+      "char_length": 188.0,
+      "has_context": 0.0,
+      "simple_verb_count": 1.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 1.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 262,
+    "prompt": "Design a multi-region cross-datacenter consensus and state replication engine for high-frequency algorithmic order execution matching engine that guarantees strict serializability during split-brain events.",
+    "tier": "tier_3",
+    "features": {
+      "token_count": 31.05,
+      "char_length": 206.0,
+      "has_context": 0.0,
+      "simple_verb_count": 1.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 1.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 263,
+    "prompt": "Design a multi-region cross-datacenter consensus and state replication engine for distributed multi-leader Raft replication cluster that guarantees strict serializability during split-brain events.",
+    "tier": "tier_3",
+    "features": {
+      "token_count": 29.700000000000003,
+      "char_length": 197.0,
+      "has_context": 0.0,
+      "simple_verb_count": 1.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 1.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 264,
+    "prompt": "Design a multi-region cross-datacenter consensus and state replication engine for cryptographic threshold signature verification scheme that guarantees strict serializability during split-brain events.",
+    "tier": "tier_3",
+    "features": {
+      "token_count": 29.700000000000003,
+      "char_length": 201.0,
+      "has_context": 0.0,
+      "simple_verb_count": 1.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 1.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 265,
+    "prompt": "Design a multi-region cross-datacenter consensus and state replication engine for asynchronous speculative execution hardware pipeline that guarantees strict serializability during split-brain events.",
+    "tier": "tier_3",
+    "features": {
+      "token_count": 29.700000000000003,
+      "char_length": 200.0,
+      "has_context": 0.0,
+      "simple_verb_count": 1.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 1.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 266,
+    "prompt": "Design a multi-region cross-datacenter consensus and state replication engine for autonomous vehicle sensor-fusion Kalman filter pipeline that guarantees strict serializability during split-brain events.",
+    "tier": "tier_3",
+    "features": {
+      "token_count": 31.05,
+      "char_length": 203.0,
+      "has_context": 0.0,
+      "simple_verb_count": 1.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 1.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 267,
+    "prompt": "Design a multi-region cross-datacenter consensus and state replication engine for quantum error-correcting surface code decoder that guarantees strict serializability during split-brain events.",
+    "tier": "tier_3",
+    "features": {
+      "token_count": 29.700000000000003,
+      "char_length": 193.0,
+      "has_context": 0.0,
+      "simple_verb_count": 1.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 1.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 268,
+    "prompt": "Design a multi-region cross-datacenter consensus and state replication engine for decentralized verifiable delay function (VDF) network that guarantees strict serializability during split-brain events.",
+    "tier": "tier_3",
+    "features": {
+      "token_count": 31.05,
+      "char_length": 201.0,
+      "has_context": 0.0,
+      "simple_verb_count": 1.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 1.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 1.0
+    }
+  },
+  {
+    "id": 269,
+    "prompt": "Design a multi-region cross-datacenter consensus and state replication engine for multi-tenant kernel-bypass eBPF packet routing fabric that guarantees strict serializability during split-brain events.",
+    "tier": "tier_3",
+    "features": {
+      "token_count": 31.05,
+      "char_length": 201.0,
+      "has_context": 0.0,
+      "simple_verb_count": 1.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 1.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 270,
+    "prompt": "Design a multi-region cross-datacenter consensus and state replication engine for real-time transactional graph neural network engine that guarantees strict serializability during split-brain events.",
+    "tier": "tier_3",
+    "features": {
+      "token_count": 31.05,
+      "char_length": 199.0,
+      "has_context": 0.0,
+      "simple_verb_count": 1.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 1.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 271,
+    "prompt": "Formulate a formal inductive proof verifying the correctness of zero-knowledge rollup validation network across all concurrent execution traces.",
+    "tier": "tier_3",
+    "features": {
+      "token_count": 24.3,
+      "char_length": 144.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 272,
+    "prompt": "Formulate a formal inductive proof verifying the correctness of high-frequency algorithmic order execution matching engine across all concurrent execution traces.",
+    "tier": "tier_3",
+    "features": {
+      "token_count": 27.0,
+      "char_length": 162.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 273,
+    "prompt": "Formulate a formal inductive proof verifying the correctness of distributed multi-leader Raft replication cluster across all concurrent execution traces.",
+    "tier": "tier_3",
+    "features": {
+      "token_count": 25.650000000000002,
+      "char_length": 153.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 274,
+    "prompt": "Formulate a formal inductive proof verifying the correctness of cryptographic threshold signature verification scheme across all concurrent execution traces.",
+    "tier": "tier_3",
+    "features": {
+      "token_count": 25.650000000000002,
+      "char_length": 157.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 275,
+    "prompt": "Formulate a formal inductive proof verifying the correctness of asynchronous speculative execution hardware pipeline across all concurrent execution traces.",
+    "tier": "tier_3",
+    "features": {
+      "token_count": 25.650000000000002,
+      "char_length": 156.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 276,
+    "prompt": "Formulate a formal inductive proof verifying the correctness of autonomous vehicle sensor-fusion Kalman filter pipeline across all concurrent execution traces.",
+    "tier": "tier_3",
+    "features": {
+      "token_count": 27.0,
+      "char_length": 159.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 277,
+    "prompt": "Formulate a formal inductive proof verifying the correctness of quantum error-correcting surface code decoder across all concurrent execution traces.",
+    "tier": "tier_3",
+    "features": {
+      "token_count": 25.650000000000002,
+      "char_length": 149.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 278,
+    "prompt": "Formulate a formal inductive proof verifying the correctness of decentralized verifiable delay function (VDF) network across all concurrent execution traces.",
+    "tier": "tier_3",
+    "features": {
+      "token_count": 27.0,
+      "char_length": 157.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 1.0
+    }
+  },
+  {
+    "id": 279,
+    "prompt": "Formulate a formal inductive proof verifying the correctness of multi-tenant kernel-bypass eBPF packet routing fabric across all concurrent execution traces.",
+    "tier": "tier_3",
+    "features": {
+      "token_count": 27.0,
+      "char_length": 157.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 280,
+    "prompt": "Formulate a formal inductive proof verifying the correctness of real-time transactional graph neural network engine across all concurrent execution traces.",
+    "tier": "tier_3",
+    "features": {
+      "token_count": 27.0,
+      "char_length": 155.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 0.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 281,
+    "prompt": "Critique the micro-architectural CPU cache contention and memory barrier ordering in this lock-free implementation of zero-knowledge rollup validation network.",
+    "tier": "tier_3",
+    "features": {
+      "token_count": 25.650000000000002,
+      "char_length": 159.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 1.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 282,
+    "prompt": "Critique the micro-architectural CPU cache contention and memory barrier ordering in this lock-free implementation of high-frequency algorithmic order execution matching engine.",
+    "tier": "tier_3",
+    "features": {
+      "token_count": 28.35,
+      "char_length": 177.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 1.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 283,
+    "prompt": "Critique the micro-architectural CPU cache contention and memory barrier ordering in this lock-free implementation of distributed multi-leader Raft replication cluster.",
+    "tier": "tier_3",
+    "features": {
+      "token_count": 27.0,
+      "char_length": 168.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 1.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 284,
+    "prompt": "Critique the micro-architectural CPU cache contention and memory barrier ordering in this lock-free implementation of cryptographic threshold signature verification scheme.",
+    "tier": "tier_3",
+    "features": {
+      "token_count": 27.0,
+      "char_length": 172.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 1.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 285,
+    "prompt": "Critique the micro-architectural CPU cache contention and memory barrier ordering in this lock-free implementation of asynchronous speculative execution hardware pipeline.",
+    "tier": "tier_3",
+    "features": {
+      "token_count": 27.0,
+      "char_length": 171.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 1.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 286,
+    "prompt": "Critique the micro-architectural CPU cache contention and memory barrier ordering in this lock-free implementation of autonomous vehicle sensor-fusion Kalman filter pipeline.",
+    "tier": "tier_3",
+    "features": {
+      "token_count": 28.35,
+      "char_length": 174.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 1.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 287,
+    "prompt": "Critique the micro-architectural CPU cache contention and memory barrier ordering in this lock-free implementation of quantum error-correcting surface code decoder.",
+    "tier": "tier_3",
+    "features": {
+      "token_count": 27.0,
+      "char_length": 164.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 1.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 288,
+    "prompt": "Critique the micro-architectural CPU cache contention and memory barrier ordering in this lock-free implementation of decentralized verifiable delay function (VDF) network.",
+    "tier": "tier_3",
+    "features": {
+      "token_count": 28.35,
+      "char_length": 172.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 1.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 1.0
+    }
+  },
+  {
+    "id": 289,
+    "prompt": "Critique the micro-architectural CPU cache contention and memory barrier ordering in this lock-free implementation of multi-tenant kernel-bypass eBPF packet routing fabric.",
+    "tier": "tier_3",
+    "features": {
+      "token_count": 28.35,
+      "char_length": 172.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 1.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  },
+  {
+    "id": 290,
+    "prompt": "Critique the micro-architectural CPU cache contention and memory barrier ordering in this lock-free implementation of real-time transactional graph neural network engine.",
+    "tier": "tier_3",
+    "features": {
+      "token_count": 28.35,
+      "char_length": 170.0,
+      "has_context": 0.0,
+      "simple_verb_count": 0.0,
+      "moderate_verb_count": 0.0,
+      "complex_verb_count": 1.0,
+      "constraint_count": 0.0,
+      "structure_score": 0.0,
+      "question_count": 0.0,
+      "has_code_syntax": 0.0
+    }
+  }
+]

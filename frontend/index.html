@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LLM Cost Autopilot | Enterprise Routing Layer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.2/dist/chart.umd.min.js"></script>
+</head>
+<body>
+  <div class="app-layout">
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="brand-icon">⚡</div>
+        <div class="brand-text">
+          <h1>Cost Autopilot</h1>
+          <span>AI Routing Layer</span>
+        </div>
+      </div>
+
+      <nav class="nav-menu">
+        <div class="nav-item active" data-tab="analytics" id="nav-analytics">
+          <span>📊</span>
+          <span>Analytics & ROI</span>
+        </div>
+        <div class="nav-item" data-tab="playground" id="nav-playground">
+          <span>🧪</span>
+          <span>Live Playground</span>
+        </div>
+        <div class="nav-item" data-tab="models" id="nav-models">
+          <span>⚙️</span>
+          <span>Model Registry</span>
+        </div>
+        <div class="nav-item" data-tab="audit" id="nav-audit">
+          <span>📝</span>
+          <span>Audit Ledger</span>
+        </div>
+      </nav>
+
+      <div class="sidebar-footer">
+        <div class="status-badge">
+          <div class="pulsing-dot"></div>
+          <span id="system-status-text">Router: Active (Auto Mode)</span>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Main Content Area -->
+    <main class="main-wrapper">
+      <!-- Header -->
+      <header class="page-header">
+        <div class="header-title">
+          <h2>LLM Cost Autopilot</h2>
+          <p>Complexity-aware dynamic routing with async quality validation and self-healing retraining.</p>
+        </div>
+        <div class="header-actions">
+          <button class="btn btn-secondary" id="btn-refresh" title="Refresh data">
+            <span>🔄</span> Refresh
+          </button>
+          <button class="btn btn-primary" id="btn-retrain" title="Trigger continual learning flywheel">
+            <span>⚡</span> Run Flywheel Retraining
+          </button>
+        </div>
+      </header>
+
+      <!-- KPI Executive Metrics (The Money Shot) -->
+      <section class="kpi-grid">
+        <!-- Metric 1: The Headline Money Shot -->
+        <div class="kpi-card hero-kpi">
+          <div class="kpi-header">
+            <span class="kpi-title">Money Shot Metric: Cost Slashed</span>
+            <span class="kpi-icon">🔥</span>
+          </div>
+          <div class="kpi-value money-shot-val" id="kpi-savings-pct">91.5%</div>
+          <div class="kpi-subtitle">vs sending 100% of volume to <strong>GPT-4o</strong></div>
+        </div>
+
+        <!-- Metric 2: Total Dollars Saved -->
+        <div class="kpi-card">
+          <div class="kpi-header">
+            <span class="kpi-title">Net Dollar Savings</span>
+            <span class="kpi-icon">💰</span>
+          </div>
+          <div class="kpi-value" style="color: #38bdf8;" id="kpi-total-saved">$0.792</div>
+          <div class="kpi-subtitle">Actual: <span id="kpi-actual-cost">$0.074</span> | Baseline: <span id="kpi-baseline-cost">$0.866</span></div>
+        </div>
+
+        <!-- Metric 3: Quality Parity -->
+        <div class="kpi-card">
+          <div class="kpi-header">
+            <span class="kpi-title">Quality Parity Agreement</span>
+            <span class="kpi-icon">🛡️</span>
+          </div>
+          <div class="kpi-value" style="color: #a855f7;" id="kpi-quality-score">0.917 <span style="font-size: 1.1rem; color: #94a3b8;">/ 1.0</span></div>
+          <div class="kpi-subtitle">Verified across <strong id="kpi-verified-count">849</strong> LLM-as-judge queries</div>
+        </div>
+
+        <!-- Metric 4: Latency & Escalation -->
+        <div class="kpi-card">
+          <div class="kpi-header">
+            <span class="kpi-title">Avg Latency / Escalation</span>
+            <span class="kpi-icon">⚡</span>
+          </div>
+          <div class="kpi-value" style="color: #f59e0b;" id="kpi-latency">239 <span style="font-size: 1.1rem; color: #94a3b8;">ms</span></div>
+          <div class="kpi-subtitle">Escalation rate: <strong id="kpi-escalation-rate">0.0%</strong> (<span id="kpi-total-requests">849</span> total)</div>
+        </div>
+      </section>
+
+      <!-- TAB 1: Analytics & ROI -->
+      <section class="dashboard-section active" id="section-analytics">
+        <div class="charts-grid">
+          <div class="chart-card">
+            <div class="chart-card-header">
+              <span class="chart-card-title">Routing Traffic Share by Model</span>
+              <span style="font-size: 0.8rem; color: var(--text-dim);">Real volume breakdown</span>
+            </div>
+            <div class="chart-canvas-container">
+              <canvas id="chart-traffic"></canvas>
+            </div>
+          </div>
+
+          <div class="chart-card">
+            <div class="chart-card-header">
+              <span class="chart-card-title">Spend: Autopilot vs Unoptimized GPT-4o</span>
+              <span style="font-size: 0.8rem; color: var(--accent-emerald);">Direct savings comparison</span>
+            </div>
+            <div class="chart-canvas-container">
+              <canvas id="chart-spend"></canvas>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- TAB 2: Live Routing Playground -->
+      <section class="dashboard-section" id="section-playground">
+        <div class="playground-container">
+          <h3 class="playground-title">Live Prompt Complexity Routing Engine</h3>
+          <p style="color: var(--text-muted); font-size: 0.9rem;">
+            Test any prompt. The Scikit-learn complexity classifier analyzes tokens, command verbs, and constraints, selects the cheapest capable model, and calculates exact savings in real time.
+          </p>
+
+          <div class="preset-pills">
+            <div class="preset-pill" data-text="Extract the order number and due date from: Invoice INV-9042 due on 2026-11-15.">⚡ Simple Extraction (Tier 1)</div>
+            <div class="preset-pill" data-text="Convert this list into a JSON array: Red, Blue, Green, Yellow, Orange.">📋 Reformat to JSON (Tier 1)</div>
+            <div class="preset-pill" data-text="Summarize the quarterly product performance highlights in 3 concise bullet points with metrics.">📝 Executive Summary (Tier 2)</div>
+            <div class="preset-pill" data-text="Classify whether this customer feedback expresses positive, neutral, or negative sentiment: 'The UI is snappy but docs are confusing.'">🏷️ Sentiment Tagging (Tier 2)</div>
+            <div class="preset-pill" data-text="Architect a fault-tolerant multi-region distributed streaming telemetry platform with exactly-once idempotency and Byzantine consensus.">🧠 Systems Architecture (Tier 3)</div>
+            <div class="preset-pill" data-text="Formulate a mathematical proof establishing convergence bounds for stochastic gradient descent on non-convex manifolds with Lipschitz continuity.">📐 Mathematical Proof (Tier 3)</div>
+          </div>
+
+          <div class="prompt-textarea-wrap">
+            <textarea id="prompt-input" class="prompt-textarea" placeholder="Type prompt here or click a preset pill above...">Extract the order number and due date from: Invoice INV-9042 due on 2026-11-15.</textarea>
+            <div class="textarea-footer">
+              <span id="char-counter">Characters: 78 | Approx Tokens: 22</span>
+              <span style="color: var(--accent-indigo);">Fast Classification: < 12ms</span>
+            </div>
+          </div>
+
+          <div style="display: flex; gap: 14px; align-items: center;">
+            <button class="btn btn-primary" id="btn-route-prompt" style="padding: 12px 24px; font-size: 0.95rem;">
+              <span>🚀</span> Route with Autopilot
+            </button>
+            <div style="display: flex; align-items: center; gap: 8px; font-size: 0.85rem; color: var(--text-muted);">
+              <span>Manual Override:</span>
+              <select id="model-override" style="background: rgba(10, 15, 26, 0.9); border: 1px solid var(--border-subtle); color: #fff; padding: 6px 12px; border-radius: 6px;">
+                <option value="">Auto-Route (Recommended)</option>
+                <option value="claude-3-haiku-20240307">Claude 3 Haiku (Tier 1)</option>
+                <option value="gpt-4o-mini">GPT-4o Mini (Tier 2)</option>
+                <option value="gpt-4o">GPT-4o Flagship (Tier 3)</option>
+                <option value="claude-3-5-sonnet-20241022">Claude 3.5 Sonnet (Tier 3)</option>
+                <option value="llama3:8b">Llama 3 8B (Local)</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- Dynamic Output Card -->
+          <div id="routing-result-card" class="result-card" style="display: none;">
+            <div class="result-header">
+              <div class="result-model-badge">
+                <span id="res-model-name" style="font-size: 1.15rem; font-weight: 700; color: #fff;">Claude 3 Haiku</span>
+                <span id="res-tier-badge" class="tier-pill tier-1">Tier 1: Simple</span>
+              </div>
+              <div id="res-savings-badge" style="font-size: 1.1rem; font-weight: 800; color: var(--accent-emerald);">
+                -87.6% Cost Slashed
+              </div>
+            </div>
+
+            <div class="metrics-strip">
+              <div>
+                <div class="metric-item-label">Actual Cost</div>
+                <div class="metric-item-val" style="color: var(--accent-emerald);" id="res-actual-cost">$0.000025</div>
+              </div>
+              <div>
+                <div class="metric-item-label">GPT-4o Baseline</div>
+                <div class="metric-item-val" style="color: #ef4444;" id="res-baseline-cost">$0.000210</div>
+              </div>
+              <div>
+                <div class="metric-item-label">Latency</div>
+                <div class="metric-item-val" id="res-latency">118 ms</div>
+              </div>
+              <div>
+                <div class="metric-item-label">Tokens Used</div>
+                <div class="metric-item-val" id="res-tokens">42 tokens</div>
+              </div>
+            </div>
+
+            <div style="font-size: 0.82rem; color: var(--text-dim); margin-bottom: 8px;">
+              ROUTING DECISION EXPLANATION:
+              <span id="res-reason" style="color: var(--text-muted); font-weight: 500;">Classified as TIER_1. Routed to lowest cost provider.</span>
+            </div>
+
+            <div style="font-size: 0.82rem; color: var(--text-dim); margin-bottom: 6px;">MODEL OUTPUT:</div>
+            <div id="res-output-text" class="response-box">...</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- TAB 3: Model Registry -->
+      <section class="dashboard-section" id="section-models">
+        <div style="margin-bottom: 20px;">
+          <h3 style="font-size: 1.25rem; font-weight: 700;">Multi-Provider Model Registry & Pricing</h3>
+          <p style="color: var(--text-muted); font-size: 0.9rem;">Real token pricing, latency benchmarks, and quality tier assignments.</p>
+        </div>
+        <div class="models-grid" id="models-container">
+          <!-- Injected via JavaScript -->
+        </div>
+      </section>
+
+      <!-- TAB 4: Audit Ledger -->
+      <section class="dashboard-section" id="section-audit">
+        <div class="table-container">
+          <div class="table-header-bar">
+            <div>
+              <h3 style="font-size: 1.15rem; font-weight: 700;">Auditing & Verification Ledger</h3>
+              <p style="color: var(--text-muted); font-size: 0.85rem;">Continuous audit trail with per-request pricing, token counts, and LLM-as-judge scores.</p>
+            </div>
+            <input type="text" id="table-search" class="search-input" placeholder="Search prompt or model...">
+          </div>
+          <div style="overflow-x: auto;">
+            <table>
+              <thead>
+                <tr>
+                  <th>Request ID</th>
+                  <th>Tier</th>
+                  <th>Routed Model</th>
+                  <th>Cost</th>
+                  <th>Baseline</th>
+                  <th>Savings</th>
+                  <th>Latency</th>
+                  <th>Quality</th>
+                </tr>
+              </thead>
+              <tbody id="audit-table-body">
+                <!-- Injected via JavaScript -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
